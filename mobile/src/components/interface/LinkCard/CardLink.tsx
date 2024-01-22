@@ -9,11 +9,11 @@ interface ICardLink {
     linkText: string;
 }
 
-export default function CardLink({linkText}: ICardLink) {
+export default function CardLink({ linkText }: ICardLink) {
 
     async function openURL() {
         const supported = await Linking.canOpenURL(linkText);
-        
+
         if (supported) {
             await Linking.openURL(linkText);
         } else {
@@ -21,7 +21,7 @@ export default function CardLink({linkText}: ICardLink) {
         }
     }
 
-    async function copyToClipboard(){
+    async function copyToClipboard() {
         await Clipboard.setStringAsync(linkText)
         Alert.alert('URL copiada com sucesso:', linkText)
     }
@@ -38,5 +38,6 @@ export default function CardLink({linkText}: ICardLink) {
                 </ButtonCopyLink>
             </BoxContent>
         </Container>
+
     )
 }

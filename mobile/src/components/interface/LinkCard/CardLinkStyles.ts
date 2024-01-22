@@ -1,6 +1,6 @@
 import styled from "styled-components/native"
 
-export const Container = styled.SafeAreaView`
+export const Container = styled.Pressable`
     width: 95%;
     height: 80px;
     border-radius: 6px;
@@ -31,7 +31,6 @@ export const LinkText = styled.Text`
 `
 
 export const BoxContent = styled.View`
-    
 `
 
 export const ButtonCopyLink = styled.TouchableOpacity`

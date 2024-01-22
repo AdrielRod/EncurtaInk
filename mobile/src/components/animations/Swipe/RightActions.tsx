@@ -19,12 +19,7 @@ export function renderRightActions({
   index,
   close,
 }: IRightActionsProps) {
-  function renderAction(
-    color: string,
-    x: number,
-    icon: 'favorite' | 'trash',
-    actionCallback: (index: number) => void
-  ) {
+  function renderAction(color: string,x: number,icon: 'favorite' | 'trash', actionCallback: (index: number) => void) {
     return renderRightAction({
       color,
       x,
@@ -37,10 +32,11 @@ export function renderRightActions({
     });
   }
 
+
   return (
     <RightActionsContainer>
-      {renderAction(theme.COLORS.BLUE, 90, 'favorite', pressFavorite)}
-      {renderAction(theme.COLORS.RED, 82, 'trash', pressDelete)}
+      {renderAction(theme.COLORS.BLUE,60, 'favorite', pressFavorite)}
+      {renderAction(theme.COLORS.RED, 60, 'trash', pressDelete)}
     </RightActionsContainer>
   );
 }
