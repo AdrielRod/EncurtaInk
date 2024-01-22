@@ -1,3 +1,4 @@
+import React from 'react';
 import { Alert, Linking } from 'react-native';
 import * as Clipboard from 'expo-clipboard';
 import { Ionicons } from '@expo/vector-icons'

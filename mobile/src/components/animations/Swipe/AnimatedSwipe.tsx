@@ -1,15 +1,10 @@
-import React, { useRef, useState } from 'react'
-import { Animated } from 'react-native'
+import React, { useRef } from 'react'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import Swipeable from 'react-native-gesture-handler/Swipeable'
-import renderRightAction from './RightAction'
 import {
     StyledSwipeable,
-    RightActionsContainer,
   } from './SwipeStyles'
-import { theme } from '../../../theme/theme'
 import { renderRightActions } from './RightActions'
-
 
 interface IAnimatedSwipe {
     children: React.ReactNode

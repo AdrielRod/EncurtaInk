@@ -1,5 +1,5 @@
+import React from 'react';
 import { Animated } from "react-native";
-
 import {Fontisto} from '@expo/vector-icons'
 import { RightActionContainer, RightActionButton } from "./SwipeStyles";
 import { theme } from "../../../theme/theme";

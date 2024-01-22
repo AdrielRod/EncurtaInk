@@ -1,3 +1,4 @@
+import React from "react";
 import { ViewStyle } from "react-native";
 import {Feather} from '@expo/vector-icons'
 import { Container, Loading, Text } from "./AlertStyles"

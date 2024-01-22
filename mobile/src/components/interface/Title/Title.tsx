@@ -1,3 +1,4 @@
+import React from "react";
 import { ViewStyle } from "react-native";
 import { Container, Title, DividerLine } from "./TitleStyles"
 

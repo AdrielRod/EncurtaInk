@@ -1,4 +1,5 @@
-import AnimatedBar from "../components/animations/BottomBar/AnimatedBar";
+import React from "react";
+import { AnimatedBar } from "../components/animations";
 import Favorites from "../screens/Favorites/Favorites";
 import Home from "../screens/Home/Home";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'

@@ -1,7 +1,5 @@
-import Swipeable from 'react-native-gesture-handler/Swipeable';
-import { Animated, TouchableOpacity } from 'react-native';
+import { Animated } from 'react-native';
 import styled from "styled-components/native";
-import { theme } from '../../../theme/theme';
 
 type TabBarContainerType = {
   tabBarWidth: number;
@@ -30,7 +28,7 @@ export const SlidingTabContainer = styled(Animated.View)<SlidingTabContainerType
     width: ${tabWidth}px;
     align-items: center;
     bottom: 5px;
-    position: absolute; /* Required for absolute positioning */
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;

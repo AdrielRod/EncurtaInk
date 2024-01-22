@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
 import {Ionicons} from '@expo/vector-icons'
 import { Container, Logo } from "./HeaderStyles"
 import { ButtonIcon } from "../CustomInput/CustomInputStyles";

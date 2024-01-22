@@ -1,5 +1,5 @@
+import React, { useContext } from "react";
 import styled from 'styled-components/native'
-import { useContext } from "react";
 import RoutesApp from "./app.routes";
 import RoutesLogin from "./login.routes";
 import { AuthContext } from "../contexts/AuthContext";

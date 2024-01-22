@@ -1,14 +1,14 @@
-import { useContext, useState, useCallback } from "react"
+import React, { useState, useCallback } from "react"
+import { Keyboard } from "react-native"
 import { useFocusEffect } from "@react-navigation/native"
 import { Alert as Alerta } from "react-native"
-import { Alert, CardLink, CustomInput, Header, Label, Title } from "../../components/interface"
-import { Container, FlatList } from "./FavoritesStyles"
-import { AuthContext } from "../../contexts/AuthContext"
-import { AreaPressable } from "../Login/LoginStyles"
-import { Keyboard } from "react-native"
-import { AnimatedSwipe } from "../../components/animations"
-import { getFavorites } from "../../services"
 import AsyncStorage from "@react-native-async-storage/async-storage"
+import { Container, FlatList } from "./FavoritesStyles"
+import { Alert, CardLink, Header, Title } from "../../components/interface"
+import { AnimatedSwipe } from "../../components/animations"
+import { AreaPressable } from "../Login/LoginStyles"
+import { getFavorites } from "../../services"
+
 
 
 export default function Favorites() {

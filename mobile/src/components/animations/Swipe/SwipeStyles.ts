@@ -1,7 +1,6 @@
-import Swipeable from 'react-native-gesture-handler/Swipeable';
 import { Animated, TouchableOpacity } from 'react-native';
+import Swipeable from 'react-native-gesture-handler/Swipeable';
 import styled from "styled-components/native";
-import { theme } from '../../../theme/theme';
 
 type ButtonTypes = {
     color: string;
