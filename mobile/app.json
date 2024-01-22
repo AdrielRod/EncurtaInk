@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "encurtaink",
+    "slug": "encurtaink",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/image/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/image/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#303030"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/image/icon.png",
+        "backgroundColor": "#303030"
+      }
+    },
+    "web": {
+      "favicon":  "./src/assets/image/icon.png"
+    }
+  }
+}

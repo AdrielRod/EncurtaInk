@@ -1,0 +1,1 @@
+export {isLinkInFavorites} from './linkHelpers'
