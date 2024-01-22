@@ -40,6 +40,7 @@ ipconfig
 ```bash
 hostname -I
 ```
+Atente-se ao "I" maiúsculo ao digitar.
 
 Copie o seu ip e no arquivo `mobile/src/api/axios-config.ts`, substitua ou crie uma nova constante com o ip e a porta 3333. Exemplo:`http://192.168.0.0:3333`
 ```ts
