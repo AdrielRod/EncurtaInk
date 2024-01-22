@@ -41,7 +41,7 @@ export const Input = styled.TextInput<ActivedInputType>`
   border: 1px solid ${isActived ? theme.COLORS.BLUE : theme.COLORS.WHITE};
   width: 85%;`
   }
-  color: ${({theme, type}) => type == 'CREATELINK' && theme.COLORS.WHITE};
+  color: ${({ theme, type }) => (type === 'CREATELINK' ? theme.COLORS.WHITE : 'black')};
   border-radius: 12px;
   justify-content: center;
   align-items: center;

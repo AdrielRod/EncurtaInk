@@ -19,7 +19,7 @@ export async function signIn(req: Request, res: Response){
             name: user.name,
             email: user.email,
         },
-        process.env.JWT_SECRET,
+        'dgkwadi2311bdwifawfla',
         {
             subject: user.name,
             expiresIn: '30d'
